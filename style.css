@@ -649,7 +649,7 @@ section {
 
 .modal-description {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
 }
 
 /* Single image modals */

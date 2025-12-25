@@ -26,7 +26,7 @@
             const email = document.getElementById('email').value;
             const message = document.getElementById('message').value;
             const subject = encodeURIComponent(`Portfolio Contact from ${name}`);
-            const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`);
+            const body = encodeURIComponent(`Name: ${name} \n \n Message:\n${message}`);
             const mailtoLink = `mailto:nm.rasonable@gmail.com?subject=${subject}&body=${body}`;
             window.location.href = mailtoLink;
             this.reset();

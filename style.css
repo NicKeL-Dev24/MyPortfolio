@@ -49,7 +49,7 @@ body {
 .shape {
     position: absolute;
     opacity: 0.1;
-    animation: float 20s infinite ease-in-out;
+    animation: floats 20s infinite ease-in-out;
 }
 
 .shape:nth-child(1) {
@@ -82,9 +82,27 @@ body {
     animation-delay: 6s;
 }
 
-@keyframes float {
-    0%, 100% { transform: translateY(0) rotate(0deg); }
-    50% { transform: translateY(-100px) rotate(180deg); }
+@keyframes floats {
+    0% { 
+        transform: translate(0, 0) rotate(0deg);
+        opacity: 0.1;
+    }
+    25% { 
+        transform: translate(100px, -150px) rotate(90deg);
+        opacity: 0.15;
+    }
+    50% { 
+        transform: translate(-50px, -250px) rotate(180deg);
+        opacity: 0.2;
+    }
+    75% { 
+        transform: translate(-150px, -150px) rotate(270deg);
+        opacity: 0.15;
+    }
+    100% { 
+        transform: translate(0, 0) rotate(360deg);
+        opacity: 0.1;
+    }
 }
 
 @keyframes gradientShift {

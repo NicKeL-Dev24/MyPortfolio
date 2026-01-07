@@ -29,8 +29,8 @@
                 title: "LibraTrack System",
                 description: "Designed to organize and manage important library documents at USeP Library, LibraTrack System streamlines cataloging, tracking, and retrieval, making library management efficient and hassle-free for staff and users.",
                 images: [
-                    "assets/LibraTrack/Assets/LibraTrack image 1.png",
-                    "assets/LibraTrack/Assets/LibraTrack image 2.jpg"
+                    "assets/LibraTrack/Assets/LibraTrack Image 1.png",
+                    "assets/LibraTrack/Assets/LibraTrack Image 2.jpg"
                 ],
             },
             {

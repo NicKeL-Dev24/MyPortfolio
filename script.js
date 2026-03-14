@@ -10,58 +10,12 @@
                 ],
             },
             {
-                title: "Cozy Paradise: Hotel Booking System",
-                description: "Cozy Paradise is a user-friendly hotel booking platform designed to simplify room reservations while providing a cozy and seamless booking experience.",
-                images: [
-                    "assets/Cozy Paradise/assets/Figma Prototype1.jpg",
-                    "assets/Cozy Paradise/assets/Figma Prototype2.jpg",
-                ],
-            },
-            {
-                title: "Pay to Park System",
-                description: "Designed for students, staff, and visitors with vehicles near USeP, the Pay to Park System streamlines parking by providing real-time slot availability, fast digital payments, and a hassle-free entry and exit experience—making campus parking simple, convenient, and stress-free.",
-                images: [
-                    "assets/Pay to Park/assets/Figma P2P1.jpg",
-                    "assets/Pay to Park/assets/Figma P2P2.jpg"
-                ],
-            },
-            {
-                title: "LibraTrack System",
-                description: "Designed to organize and manage important library documents at USeP Library, LibraTrack System streamlines cataloging, tracking, and retrieval, making library management efficient and hassle-free for staff and users.",
-                images: [
-                    "assets/LibraTrack/Assets/LibraTrack Image 1.png",
-                    "assets/LibraTrack/Assets/LibraTrack Image 2.jpg"
-                ],
-            },
-            {
-                title: "EchoMach",
-                description: "EchoMach is a rental management system for Agricultural and Biosystems Engineering that provides students access to tractors and essential machinery equipment for academic use.",
-                images: [
-                    "assets/EchoMach/assets/echomachLogo.png"
-                ],
-            },
-            {
                 title: "U'Sign",
                 description: "A Bidirectional Sign Language and Speech Translator for Frontline Services at the University of Southeastern Philippines Tagum Unit using 3D Avatar Animation for Deaf Individual Students.",
                 images: [
                     "assets/USIGN/assets/Flash Page.png"
                 ],
             },
-            {
-                title: "KoiDex",
-                description: "KoiDex is a mobile app designed for Pokémon fans to rent and manage a Pokédex. It lets players track, organize, and explore Pokémon collections, providing a fun and flexible way to complete their Dex and strategize without needing to catch every Pokémon themselves.",
-                images: [
-                    "assets/KoiDex/assets/kdlogo.png"
-                ],
-            },
-            {
-                title: "Swapee",
-                description: "Swapee is a bartering app that enables users to safely trade goods and services within their community during pandemic conditions, promoting resource-sharing and sustainability.",
-                images: [
-                    "assets/Swapee/assets/Swapee2.png",
-                    "assets/Swapee/assets/Swapee1.jpg"
-                ],
-            }
         ];
 
         let currentPageNum = 1;
@@ -264,7 +218,7 @@
         updatePositions(activeIndex);
 
         // Typing effect
-        const titles = ['NicKeL', 'Frontend Developer', 'UI/UX Designer'];
+        const titles = ['NicKeL', 'Web Developer', 'UI/UX Designer'];
         let titleIndex = 0;
         let charIndex = 0;
         let isDeleting = false;
